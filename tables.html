@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, td{
+            border-collapse: collapse;
+        }
+        td {
+            width: 100px;
+            height: 50px;
+        }
+    </style>
 </head>
 
 <body>
@@ -53,5 +62,45 @@
     <div>header</div>
     <div>navbar</div>
     <div>main content</div>
+    <table border="2">
+        <!--row1-->
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+            <td></td>
+            </tr>
+        <!--row2-->
+        <tr>
+            <td colspan="4"></td>
+            <td></td>
+        </tr>
+        <!--row3-->
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr>
+            <!--row4-->
+        <tr>
+            <td rowspan="2"></td>
+            <td></td>
+            <td></td>
+            <td colspan="2" rowspan="3"></td>
+            </tr>
+            <!--row5-->
+        <tr>
+            <td rowspan="2" colspan="2" ></td>
+            <td></td>
+            </tr>
+            <!--row6-->
+        <tr>
+            <td></td>
+            <td></td>
+            </tr>
+           </table>
 </body>
 </html>
