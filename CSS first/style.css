@@ -1,0 +1,16 @@
+body {
+    font size: 20px;
+}
+
+p {
+    color: red;
+    border: 5px solid green;
+}
+
+.special {
+       color: greenyellow;
+}
+
+#special {
+    
+}
