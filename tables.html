@@ -9,9 +9,11 @@
         table, td{
             border-collapse: collapse;
         }
+        tr {
+           height: 50px;
+        }
         td {
             width: 100px;
-            height: 50px;
         }
     </style>
 </head>
@@ -62,14 +64,14 @@
     <div>header</div>
     <div>navbar</div>
     <div>main content</div>
-    <table border="2">
+    <table border="1" cellspacing="5" cellpaddig="5">
         <!--row1-->
         <tr>
             <td rowspan="2"></td>
             <td colspan="2"></td>
             <td colspan="2"></td>
             <td></td>
-            </tr>
+        </tr>
         <!--row2-->
         <tr>
             <td colspan="4"></td>
@@ -83,24 +85,22 @@
             <td></td>
             <td></td>
             <td></td>
-            </tr>
+        </tr>
             <!--row4-->
         <tr>
             <td rowspan="2"></td>
             <td></td>
             <td></td>
             <td colspan="2" rowspan="3"></td>
-            </tr>
+        </tr>
             <!--row5-->
         <tr>
-            <td rowspan="2" colspan="2" ></td>
-            <td></td>
-            </tr>
+            <td colspan="3" rowspan="2"></td>
+        </tr>
             <!--row6-->
         <tr>
             <td></td>
-            <td></td>
-            </tr>
+        </tr>
            </table>
 </body>
 </html>

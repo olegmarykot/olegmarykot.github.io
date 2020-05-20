@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#chessdesk {
+    width: 660px;
+    height: 660px;
+    margin: 0;
+    background-color: rgb(255, 182, 47);
+    border: 1px solid black;
+    display: table;
+    text-align: center;
+    
+}
+
+div .row{
+  display: table-row;
+}
+
+.cell-white {
+    display: table-cell;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    font-size: x-large;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cell-black {
+    display: table-cell;
+    width: 75px;
+    height: 75px;
+    background-color: black;
+    font-size: x-large;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.corner {
+    display: table-cell;
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.top-lett, .bott-lett {
+    display: table-cell;
+    width: 75px;
+    height: 30px;
+    border: 1px solid black;
+  
+}
+
+.left-numb, .right-numb {
+    display: table-cell;
+    width: 30px;
+    height: 75px;
+    border: 1px solid black;
+    vertical-align: middle;
+}
+
+.a8 {
+    background-image: url(images/tura-w.png);
+}
+
+.b8 {
+    background-image: url(images/horse-w.png);
+}
+
+.c8 {
+    background-image: url(images/fers-w.png);
+}
+
+.d8 {
+    background-image: url(images/queen-w.png);
+}
+
+.e8 {
+    background-image: url(images/king-w.png);
+}
+
+.f8 {
+    background-image: url(images/fers-wb.png);
+}
+
+.g8 {
+    background-image: url(images/horse-ww.png);
+}
+
+.h8 {
+    background-image: url(images/tura-wb.png);
+}
+
+.a7 {
+    background-image: url(images/sold-wb.png);
+}
+
+.b7 {
+    background-image: url(images/sold-ww.png);
+}
+
+.a2 {
+    background-image: url(images/sold-bw.png);
+}
+
+.b2 {
+    background-image: url(images/sold-bb.png);
+}
+
+.a1 {
+    background-image: url(images/tura-bb.png);
+}
+
+.b1 {
+    background-image: url(images/horse-bb.png);
+}
+
+.c1 {
+    background-image: url(images/fers-bb.png);
+}
+
+.d1 {
+    background-image: url(images/queen-bw.png);
+}
+
+.e1 {
+    background-image: url(images/king-bw.png);
+}
+
+.f1 {
+    background-image: url(images/fers-bb.bw.png);
+}
+
+.g1 {
+    background-image: url(images/horse-bw.png);
+}
+
+.h1 {
+    background-image: url(images/tura-bw.png);
+}
