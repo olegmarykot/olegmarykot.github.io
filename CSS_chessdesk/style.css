@@ -9,59 +9,52 @@
     height: 660px;
     margin: 0 auto;
     background-color: rgb(255, 182, 47);
-    border: 1px solid black;
     display: table;
     text-align: center;
     
-}
-
-div .row{
-  display: table-row;
 }
 
 .cell-white {
     display: table-cell;
     width: 75px;
     height: 75px;
-    background-color: white;
-    font-size: x-large;
+    background-color: white;    
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;    
 }
 
 .cell-black {
     display: table-cell;
     width: 75px;
     height: 75px;
-    background-color: black;
-    font-size: x-large;
+    background-color: black;    
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover;    
 }
 
 .corner {
     display: table-cell;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     border: 1px solid black;
 }
 
 .top-lett, .bott-lett {
     display: table-cell;
-    width: 75px;
-    height: 30px;
-    border: 1px solid black;
+    width: 73px;
+    height: 28px;
+    border: 1px solid black;   
   
 }
 
 .left-numb, .right-numb {
     display: table-cell;
-    width: 30px;
-    height: 75px;
+    width: 28px;
+    height: 73px;
     border: 1px solid black;
-    vertical-align: middle;
+    vertical-align: middle;    
 }
 
 .a8 {
