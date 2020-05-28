@@ -31,3 +31,16 @@ for ( var i = 0; i < arr.length; i++) {
     }
 }
 console.log (minn);
+
+var neg = [];
+var pos = [];
+for ( var i = 0; i < arr.length; i++) {
+    if (arr[i] < 0) {
+        neg.push(arr[i]);        
+    }
+    else {
+        pos.push(arr[i]);
+    }
+}
+console.log ("negative=", neg.length);
+console.log ("positive=", pos.length);
