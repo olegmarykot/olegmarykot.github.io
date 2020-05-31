@@ -1,0 +1,28 @@
+#content {
+    display: table;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.row {
+    display: table-row;
+    border-collapse: collapse;
+}
+
+.cell {
+    display: table-cell;
+    width: 40px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.cell-main {
+    background-color: green;
+}
+
+.cell-umain {
+    background-color: aqua;
+}
+
+.cell-omain {
+    background-color: yellow;
+}

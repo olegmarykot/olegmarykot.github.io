@@ -107,12 +107,12 @@ function Fibonacci (num){
     else {
     a = result[i-1] + result [i-2];
     result.push(a);
-    }
-}
+            }
+        }
     }
     else {
         console.log("null")
     }
 return result;
-    }
+}
 console.log (Fibonacci(7));
