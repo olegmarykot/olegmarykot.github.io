@@ -11,19 +11,16 @@
 
 .cell {
     display: table-cell;
-    width: 40px;
+    width: 75px;
+    height: 75px;
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
 }
-.cell-main {
-    background-color: green;
-}
 
-.cell-umain {
-    background-color: aqua;
+.cell-white {
+    background-color: white;    
 }
-
-.cell-omain {
-    background-color: yellow;
+.cell-black {
+    background-color: black;
 }
